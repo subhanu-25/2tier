@@ -1,5 +1,5 @@
 <?php
-$host = "twotier.cliumscw44qs.ap-south-1.rds.amazonaws.com";  // RDS endpoint
+$host = "data.cliumscw44qs.ap-south-1.rds.amazonaws.com";  // RDS endpoint
 $db_user = "subha";  // DB master username
 $db_pass = "subha234";  // DB password
 $db_name = "LoginDB";  // DB name
