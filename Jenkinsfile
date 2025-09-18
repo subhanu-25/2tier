@@ -1,9 +1,9 @@
 pipeline {
-    agent { label 'ubuntu' }  // ensures job runs on your EC2 agent
+    agent { label 'ec2' }  // ensures job runs on your EC2 agent
 
     environment {
         APP_DIR = "/var/www/html"
-        RDS_ENDPOINT = "twotier.cliumscw44qs.ap-south-1.rds.amazonaws.com"
+        RDS_ENDPOINT = "data.cliumscw44qs.ap-south-1.rds.amazonaws.com"
         DB_USER = "subha"
         DB_PASS = subha234('rds-password')   // stored in Jenkins credentials
         DB_NAME = "LoginDB"
